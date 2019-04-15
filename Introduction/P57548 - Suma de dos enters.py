@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+
 import sys
+
 
 def readNumbers(maxnums):
     result = []
@@ -15,6 +18,7 @@ def readNumbers(maxnums):
             if (currnums == maxnums):
                 return result
 
+
 def old():
     a = input().split(' ')
     if (len(a) > 1):
@@ -23,10 +27,12 @@ def old():
         b = input().split(' ')
         print(int(a[0]) + int(b[0]))
 
+
 def main():
     entrada = readNumbers(2)
     result = sum(entrada)
     print(result)
+
 
 main()
 #old()

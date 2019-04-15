@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+
 import sys
+
 
 def readNumbers(maxnums):
     result = []
@@ -15,9 +18,11 @@ def readNumbers(maxnums):
             if (currnums == maxnums):
                 return result
 
+
 def main():
     entrada = readNumbers(3)
     result = max(entrada)
     print(result)
+
 
 main()

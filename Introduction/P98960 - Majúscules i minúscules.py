@@ -3,7 +3,7 @@
 
 
 def main():
-	print('Bon dia a tothom!')
+    print(input().swapcase())
 
 
 main()
